@@ -7,14 +7,16 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 function App() {
   return (
-
+    <div className="App">
     <Router>
-      <div className="App">
+      
       <Sidebar/>
       <Route path="/" exact component={commercial}/>
       <Route path="/marcom" exact component={marcom}/>
-      </div>
+     
     </Router>
+
+    </div>
 
         );
   }

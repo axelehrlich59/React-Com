@@ -7,13 +7,13 @@ import {
   CDBSidebarMenu,
   CDBSidebarMenuItem,
 } from 'cdbreact';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
 const Sidebar = () => {
   return (
     <div
-      style={{ display: 'flex', height: '100vh', overflow: 'scroll initial' }}
+      style={{ display: 'flex', height: '100vh', overflow: 'scroll initial', width: 'auto' }}
     >
       <CDBSidebar textColor="#fff" backgroundColor="#333">
         <CDBSidebarHeader prefix={<i className="fa fa-bars fa-large"></i>}>
@@ -28,13 +28,13 @@ const Sidebar = () => {
 
         <CDBSidebarContent className="sidebar-content">
           <CDBSidebarMenu>
-            <NavLink exact to="/" activeClassName="activeClicked">
+            <Link to="/" activeClassName="activeClicked">
                 
               <CDBSidebarMenuItem icon="columns">Commercial</CDBSidebarMenuItem>
-            </NavLink>
-            <NavLink exact to="/marcom" activeClassName="activeClicked">
+            </Link>
+            <Link to="/marcom" activeClassName="activeClicked">
               <CDBSidebarMenuItem icon="columns">Marcom</CDBSidebarMenuItem>
-            </NavLink>
+            </Link>
             
 
             
