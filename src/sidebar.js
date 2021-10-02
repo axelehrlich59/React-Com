@@ -28,12 +28,12 @@ const Sidebar = () => {
 
         <CDBSidebarContent className="sidebar-content">
           <CDBSidebarMenu>
-            <NavLink exact to="/Commercial" activeClassName="activeClicked">
+            <NavLink exact to="/" activeClassName="activeClicked">
                 
               <CDBSidebarMenuItem icon="columns">Commercial</CDBSidebarMenuItem>
             </NavLink>
-            <NavLink exact to="/Marcom" activeClassName="activeClicked">
-              <CDBSidebarMenuItem icon="columns">Macrom</CDBSidebarMenuItem>
+            <NavLink exact to="/marcom" activeClassName="activeClicked">
+              <CDBSidebarMenuItem icon="columns">Marcom</CDBSidebarMenuItem>
             </NavLink>
             
 
