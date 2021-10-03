@@ -1,4 +1,7 @@
 import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faAtom } from '@fortawesome/free-solid-svg-icons'
+
 
 const commercialBloc1 = () => {
 
@@ -23,10 +26,10 @@ const commercialBloc1 = () => {
                                     </label>
                                 </div>
                                 <div className='container_2'>
-                                    <label style={{fontWeight:'bold'}}>
+                                    <label style={{color:'#2d2e2e'}}>
                                         Propales envoyées
                                     </label>
-                                    <label style={{fontWeight:'bold', fontSize:'1.1em', color:'#33bbff'}}>
+                                    <label style={{fontWeight:'bold', fontSize:'1.1em', color:'#40b7c9'}}>
                                         70
                                     </label>
                                 </div>
@@ -35,8 +38,8 @@ const commercialBloc1 = () => {
                                     <label style={{color:'white', fontWeight:'bold', fontSize:'1.1em'}}>438 042 $</label>
                                 </div>
                                 <div className='container_4'>
-                                    <label style={{fontWeight:'bold'}}>Rendez-vous</label> 
-                                    <label style={{fontWeight:'bold', fontSize:'1.1em', color:'#33bbff'}}>118</label>      
+                                    <label style={{color:'#2d2e2e'}}>Rendez-vous</label> 
+                                    <label style={{fontWeight:'bold', fontSize:'1.1em', color:'#40b7c9'}}>118</label>      
                                 </div>
 
                         </div>
@@ -49,7 +52,54 @@ const commercialBloc1 = () => {
 
 
  const commercialBloc2 = () => {
-    return (<h1>Hello</h1>)
+    return (<div>
+                    <div className='flex_main_container'>
+                        <div className='main_container_pipe'>
+                                <div className='container_logo'>
+                                <FontAwesomeIcon className='icon' icon={faAtom} />
+                                </div>
+                                <div className='container_pipe'>
+                                    <p className='p_pipe'>Pipe</p>
+                                </div>
+                                <div className='container_price'>
+                                    <p className='p_price'>2 218 500$</p>
+                                </div>
+                        </div>
+
+                    </div>
+
+                <div className='container_flex_second_block'>
+                    <div className='container_second_block'>
+                        <div className='container_first_column'> 
+                                <div>
+                                    <label className='label_first_column_1'>En cours de négo</label>
+                                </div>
+                                <div>
+                                    <label className='label_first_column_2'>56</label>
+                                </div>
+                            </div>
+
+                            <div className='container_second_column'>
+                                <div>
+                                    <label className='label_second_column_1'>Propales envoyées</label>
+                                </div>
+                                <div>
+                                    <label className='label_second_column_2'>66</label>
+                                </div>
+                            </div>
+
+                            <div className='container_third_column'>
+                                <div>
+                                    <label className='label_third_column_1'>Offres qualifiées</label>
+                                </div>
+                                <div>
+                                    <label className='label_third_column_2'>96</label>
+                                </div>
+                            </div>
+                    </div>
+
+                </div>        
+            </div>)
 }
 
 export {commercialBloc1,commercialBloc2};

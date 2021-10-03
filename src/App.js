@@ -12,11 +12,12 @@ function App() {
     <div className="App" style={{display:'flex', width:'100%', backgroundColor:'#E0E0E0'}}>
       <Router>
         <Sidebar/>
-        <switch style={{width:'100%'}}>
+        <switch style={{width:'100%', height:'100%'}}>
         <Route exact path="/" component={commercialBloc1}/>
-        <Route path="/" component={commercialBloc2}/>
-        <Route path="/marcom" exact component={marcom}/>
+        <Route exact path="/" component={commercialBloc2}/>
+        <Route exact path="/marcom" exact component={marcom}/>
         </switch>
+              
           
       </Router>
     </div>
