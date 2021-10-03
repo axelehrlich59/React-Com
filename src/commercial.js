@@ -47,4 +47,9 @@ const commercialBloc1 = () => {
        ;
 }
 
-export default commercialBloc1;
+
+ const commercialBloc2 = () => {
+    return (<h1>Hello</h1>)
+}
+
+export {commercialBloc1,commercialBloc2};
