@@ -7,7 +7,7 @@ import {
   CDBSidebarMenu,
   CDBSidebarMenuItem,
 } from 'cdbreact';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 
 
@@ -29,13 +29,13 @@ const Sidebar = () => {
 
         <CDBSidebarContent className="sidebar-content">
           <CDBSidebarMenu>
-            <Link to="/" activeClassName="activeClicked">
+            <NavLink to="/" activeClassName="activeClicked">
                 
               <CDBSidebarMenuItem icon="columns">Commercial</CDBSidebarMenuItem>
-            </Link>
-            <Link to="/marcom" activeClassName="activeClicked">
+            </NavLink>
+            <NavLink to="/marcom" activeClassName="activeClicked">
               <CDBSidebarMenuItem icon="columns">Marcom</CDBSidebarMenuItem>
-            </Link>
+            </NavLink>
             
 
             
