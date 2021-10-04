@@ -22,7 +22,7 @@ const commercialBloc1 = () => {
                                         Objectif
                                     </label>
                                     <label style={{color:'white', fontWeight:'bold', fontSize:'1.1em'}}>
-                                        1 000 000 $
+                                        1 000 000 €
                                     </label>
                                 </div>
                                 <div className='container_2'>
@@ -35,7 +35,7 @@ const commercialBloc1 = () => {
                                 </div>
                                 <div className='container_3'>
                                     <label style={{opacity:'0.5', fontWeight:'bold', color:'white'}}>CA global</label>
-                                    <label style={{color:'white', fontWeight:'bold', fontSize:'1.1em'}}>438 042 $</label>
+                                    <label style={{color:'white', fontWeight:'bold', fontSize:'1.1em'}}>438 042 €</label>
                                 </div>
                                 <div className='container_4'>
                                     <label style={{color:'#2d2e2e'}}>Rendez-vous</label> 
@@ -62,7 +62,7 @@ const commercialBloc1 = () => {
                                     <p className='p_pipe'>Pipe</p>
                                 </div>
                                 <div className='container_price'>
-                                    <p className='p_price'>2 218 500$</p>
+                                    <p className='p_price'>2 218 500 €</p>
                                 </div>
                         </div>
 

@@ -23,13 +23,14 @@
 .parent_contain {
     display: flex;
     justify-content: center;
+    font-weight: lighter;
 }
 
 .container_bloc_1 {
     display: flex;
     justify-content: center;
     background-color: #E0E0E0;
-    width: 90%;
+    width: 96%;
 }
 
 .container_all_column {
@@ -66,4 +67,70 @@
     padding: 15px;
     background-color: #f3cdce;
     border-bottom-right-radius: 5px;
+}
+
+.container_content1 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.container_content2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.container_content3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.container_content4 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.container_content1_label1 {
+    font-weight: bold;
+    color: white;
+   opacity: 0.5; 
+   margin : 0;
+}*
+
+.container_content1_label2 {
+    font-weight: bold;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.container_content2_label1 {
+    font-weight: lighter;
+    margin: 0;
+}
+
+.container_content2_label2 {
+    font-weight: bold;
+    color: #ff474a;
+    font-size: 1.5rem;
+}
+
+.container_content3_label1 {
+    font-weight: lighter;
+    margin: 0;
+}
+
+.container_content3_label2 {
+    font-weight: bold;
+    color: #ff474a;
+    font-size: 1.5rem;
+}
+
+.container_content4_label1 {
+    font-weight: lighter;
+    margin: 0;
+}
+
+.container_content4_label2 {
+    font-weight: bold;
+    color: #ff474a;
+    font-size: 1.5rem;
 }
