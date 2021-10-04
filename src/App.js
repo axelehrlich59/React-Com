@@ -3,6 +3,7 @@ import './commercial.css';
 import './marcom.css';
 import Sidebar from './sidebar';
 import {marcomBloc1} from './marcom';
+import {marcomBloc2} from './marcom';
 import {commercialBloc1} from "./commercial";
 import {commercialBloc2} from "./commercial";
 import { BrowserRouter as Router, Route } from 'react-router-dom';
@@ -16,7 +17,8 @@ function App() {
         <switch style={{width:'100%', height:'100%'}}>
         <Route exact path="/" component={commercialBloc1}/>
         <Route exact path="/" component={commercialBloc2}/>
-        <Route exact path="/marcom" exact component={marcomBloc1}/>
+        <Route exact path="/marcom" component={marcomBloc1}/>
+        <Route exact path="/marcom" component={marcomBloc2}/>
         </switch>
               
           
