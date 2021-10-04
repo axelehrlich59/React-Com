@@ -1,0 +1,69 @@
+
+/* Section marcom */
+
+.section_mar {
+    display: flex;
+    margin-left: 1rem;
+    padding: 10px;
+  }
+  
+  .small {
+    padding: 2px;
+  }
+  
+  .mar_h5 {
+    color: #ff474a;
+    margin-left: 5px;
+    font-weight: bold;
+  }
+
+
+/* Bloc 1 */
+
+.parent_contain {
+    display: flex;
+    justify-content: center;
+}
+
+.container_bloc_1 {
+    display: flex;
+    justify-content: center;
+    background-color: #E0E0E0;
+    width: 90%;
+}
+
+.container_all_column {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #E0E0E0;
+    width: 100%;
+}
+
+.container_column1 {
+    width: 50%;
+    padding: 15px;
+    background-color: #ff474a;
+    border-top-left-radius: 5px;
+}
+
+.container_column2 {
+    width: 50%;
+    padding: 15px;
+    background-color: whitesmoke;
+    border-top-right-radius: 5px;
+}
+
+.container_column3 {
+    width: 50%;
+    padding: 15px;
+    background-color: whitesmoke;
+    border-bottom-left-radius: 5px;
+}
+
+.container_column4 {
+    width: 50%;
+    padding: 15px;
+    background-color: #f3cdce;
+    border-bottom-right-radius: 5px;
+}
