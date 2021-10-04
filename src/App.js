@@ -15,8 +15,8 @@ function App() {
       <Router>
         <Sidebar/>
         <switch style={{width:'100%', height:'100%'}}>
-        <Route exact path="/" component={commercialBloc1}/>
-        <Route exact path="/" component={commercialBloc2}/>
+        <Route exact path="/commercial" component={commercialBloc1}/>
+        <Route exact path="/commercial" component={commercialBloc2}/>
         <Route exact path="/marcom" component={marcomBloc1}/>
         <Route exact path="/marcom" component={marcomBloc2}/>
         </switch>

@@ -7,6 +7,9 @@ import {
   CDBSidebarMenuItem,
 } from 'cdbreact';
 import { NavLink } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faSuitcase } from '@fortawesome/free-solid-svg-icons'
+import { faEuroSign } from '@fortawesome/free-solid-svg-icons'
 
 
 
@@ -20,9 +23,25 @@ const Sidebar = () => {
       <div className='sidebar'>
 
         <div className='sidebar_div_li'>
+           
+          <div className='container_sidebar'>
+            
+                
+                
+                  <li className='li_nav'>
+                    <NavLink to='/commercial'>
+                    <FontAwesomeIcon icon={faSuitcase} />  Commercial
+                    </NavLink></li>
+              
+          </div>
+          <div className='container_sidebar'>
           
-           <NavLink className='navlink' to="/"><i className='sidebar_li'>Commercial</i></NavLink>
-            <NavLink to="/marcom"><li className='sidebar_li'>Marcom</li></NavLink>
+                  <li className='li_nav'>
+                    <NavLink to='/marcom'>
+                    <FontAwesomeIcon icon={faEuroSign} /> <br/> Marcom
+                    </NavLink></li>
+               
+          </div>
 
         </div>
         
