@@ -1,6 +1,6 @@
 import React from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAtom } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAtom, faHourglass, faPaperPlane, faCheckSquare } from '@fortawesome/free-solid-svg-icons';
 
   export default class commercialBloc2 extends React.Component {
 
@@ -29,7 +29,7 @@ import { faAtom } from '@fortawesome/free-solid-svg-icons'
                                     <label className='label_first_column_1'>En cours de négo</label>
                                 </div>
                                 <div>
-                                    <label className='label_first_column_2'>56</label>
+                                    <label className='label_first_column_2'><FontAwesomeIcon icon={faHourglass}/> 56</label>
                                 </div>
                             </div>
 
@@ -38,7 +38,7 @@ import { faAtom } from '@fortawesome/free-solid-svg-icons'
                                     <label className='label_second_column_1'>Propales envoyées</label>
                                 </div>
                                 <div>
-                                    <label className='label_second_column_2'>66</label>
+                                    <label className='label_second_column_2'><FontAwesomeIcon icon={faPaperPlane} /> 66</label>
                                 </div>
                             </div>
 
@@ -47,7 +47,7 @@ import { faAtom } from '@fortawesome/free-solid-svg-icons'
                                     <label className='label_third_column_1'>Offres qualifiées</label>
                                 </div>
                                 <div>
-                                    <label className='label_third_column_2'>96</label>
+                                    <label className='label_third_column_2'><FontAwesomeIcon icon={faCheckSquare} /> 96</label>
                                 </div>
                             </div>
                     </div>
