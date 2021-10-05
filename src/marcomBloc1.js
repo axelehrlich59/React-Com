@@ -1,6 +1,8 @@
 import React from "react";
 
-const marcomBloc1 = () => {
+export default class marcomBloc1 extends React.Component{
+
+    render() {
     return <div>
               
               
@@ -41,28 +43,4 @@ const marcomBloc1 = () => {
                 </div>
               </div>
            </div>;
-}
-
-const marcomBloc2 = () => {
-   return (<div>
-              <div className='container_parent'>
-                <div className='container_main_bloc2'>
-                    <div className='container_bloc2'>
-                        <div className='column1'>
-                            <label className='column1_label1'>Vues</label> <br/>
-                            <label className='column1_label2'>1282</label>
-                            </div>
-
-                        <div className='column2'>
-                            <label className='column2_label1'>Interractions</label> <br />
-                            <label className='column2_label2'>54</label>
-                        </div>
-                    </div>
-                </div>
-              </div>  
-
-            </div>);
-}
-
-
-export {marcomBloc1, marcomBloc2};
+}}

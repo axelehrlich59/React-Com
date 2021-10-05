@@ -2,11 +2,12 @@ import logo from './logo.svg';
 import './commercial.css';
 import './marcom.css';
 import Sidebar from './sidebar';
-import {marcomBloc1} from './marcom';
-import {marcomBloc2} from './marcom';
-import {commercialBloc1} from "./commercial";
-import {commercialBloc2} from "./commercial";
+import commercialBloc1 from './commercialBloc1';
+import commercialBloc2 from './commercialBloc2';
+import marcomBloc1 from './marcomBloc1';
+import marcomBloc2 from './marcomBloc2';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
+
 
 
 function App() {
@@ -15,8 +16,8 @@ function App() {
       <Router>
         <Sidebar/>
         <switch style={{width:'100%', height:'100%'}}>
-        <Route exact path="/commercial" component={commercialBloc1}/>
-        <Route exact path="/commercial" component={commercialBloc2}/>
+        <Route exact path="/" component={commercialBloc1}/>
+        <Route exact path="/" component={commercialBloc2}/>
         <Route exact path="/marcom" component={marcomBloc1}/>
         <Route exact path="/marcom" component={marcomBloc2}/>
         </switch>
