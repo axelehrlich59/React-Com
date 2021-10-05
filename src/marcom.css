@@ -9,7 +9,9 @@
 }
 
 .small {
-    padding: 2px;
+    padding: 2.8px;
+    color: gray;
+    
 }
 
 .mar_h5 {
@@ -31,7 +33,7 @@
     display: flex;
     justify-content: center;
     background-color: #E0E0E0;
-    width: 96%;
+    width: 97%;
 }
 
 .container_all_column {
@@ -44,30 +46,38 @@
 
 .container_column1 {
     width: 50%;
-    padding: 15px;
+    padding: 30px;
     background-color: #ff474a;
     border-top-left-radius: 5px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .container_column2 {
     width: 50%;
-    padding: 15px;
+    padding: 30px;
     background-color: whitesmoke;
     border-top-right-radius: 5px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .container_column3 {
     width: 50%;
-    padding: 15px;
+    padding: 30px;
     background-color: whitesmoke;
     border-bottom-left-radius: 5px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .container_column4 {
     width: 50%;
-    padding: 15px;
+    padding: 30px;
     background-color: #f3cdce;
     border-bottom-right-radius: 5px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .container_content1 {
@@ -91,6 +101,8 @@
 }
 
 .container_content1_label1 {
+    display: flex;
+    justify-content: flex-start;
     font-weight: bold;
     color: white;
     opacity: 0.5;
@@ -98,17 +110,23 @@
 }
 
 * .container_content1_label2 {
+    display: flex;
+    justify-content: flex-start;
     font-weight: bold;
     color: white;
     font-size: 1.5rem;
 }
 
 .container_content2_label1 {
+    display: flex;
+    justify-content: flex-start;
     font-weight: lighter;
     margin: 0;
 }
 
 .container_content2_label2 {
+    display: flex;
+    justify-content: flex-start;
     font-weight: bold;
     color: #ff474a;
     font-size: 1.5rem;
@@ -117,23 +135,66 @@
 .container_content3_label1 {
     font-weight: lighter;
     margin: 0;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .container_content3_label2 {
     font-weight: bold;
     color: #ff474a;
     font-size: 1.5rem;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .container_content4_label1 {
     font-weight: lighter;
     margin: 0;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .container_content4_label2 {
     font-weight: bold;
     color: #ff474a;
     font-size: 1.5rem;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.container_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+
+.icon_finger {
+    color: white;
+    font-size: 5rem;
+}
+
+.user_gear {
+    color: #f3cdce;
+    font-size: 5rem;
+}
+
+.user_plus {
+    color: #f3cdce;
+    font-size: 5rem;
+}
+
+.credit_card {
+    color: #f8b4be;
+    font-size: 5rem;
+}
+
+.container_label {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
 }
 
 
@@ -148,7 +209,7 @@
 .container_main_bloc2 {
     display: flex;
     justify-content: center;
-    width: 96%;
+    width: 97%;
     border-radius: 5px;
 }
 
