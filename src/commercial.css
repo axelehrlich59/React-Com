@@ -81,9 +81,6 @@ li a:hover{
   color: white;
 }
 
-.li_nav {
-
-}
 
 /* Container bloc1 */
 
@@ -91,6 +88,7 @@ li a:hover{
   display: flex;
   margin-left: 1rem;
   padding: 10px;
+  margin-bottom: 20px;
 }
 
 .small {
