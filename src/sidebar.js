@@ -30,7 +30,7 @@ const Sidebar = () => {
                 
                   <li className='li_nav'>
                     <NavLink to='/commercial'>
-                    <FontAwesomeIcon icon={faSuitcase} />  Commercial
+                    <FontAwesomeIcon icon={faSuitcase} />  COMMERCIAL
                     </NavLink></li>
               
           </div>
@@ -38,7 +38,7 @@ const Sidebar = () => {
           
                   <li className='li_nav'>
                     <NavLink to='/marcom'>
-                    <FontAwesomeIcon icon={faEuroSign} /> <br/> Marcom
+                    <FontAwesomeIcon icon={faEuroSign} /> <br/> MARCOM
                     </NavLink></li>
                
           </div>
