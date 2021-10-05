@@ -29,7 +29,7 @@ const Sidebar = () => {
                 
                 
                   <li className='li_nav'>
-                    <NavLink to='/'>
+                    <NavLink exact to='/'>
                     <FontAwesomeIcon icon={faSuitcase} />  COMMERCIAL
                     </NavLink></li>
               
